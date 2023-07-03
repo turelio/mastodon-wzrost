@@ -1,7 +1,7 @@
 ##
 Repozytorium zawiera skrypty, surowe dane oraz zagregowane zbiory stworzone na potrzeby badania dynamiki wzrostu platformy społecznościowej Mastodon.
 ## Wymagania
-- pakiet tidyverse dla języka R
+- R 4.3.0 i pakiet tidyverse
 - Python 3.11+
 ## Struktura repozytorium
 1. dane/
@@ -9,9 +9,9 @@ Repozytorium zawiera skrypty, surowe dane oraz zagregowane zbiory stworzone na p
 2. korekta/
 	- informacja o ręcznych korektach w zbiorze danych wraz z oryginalnymi plikami
 3. rafinacja/
-	- nowe zbiory utworzone na podstawie danych wejściowych
+	- nowe zbiory utworzone przez skrypty na podstawie danych wejściowych
+	- zbiór all-mastodon.csv musi zostać wygenerowany ręcznie (przez bonus.r) ze względu na ograniczenia wielkości pliku na githubie
 4. skrypty Python
-	- duże.py: sprawdzenie rozmiaru zbioru
 	- instancje.py: tworzenie zbioru instancji i informacji o istnieniu serwera na każdy dzień
 	- instancje-analiza.py: analiza zbioru 'dane-dzien-instancje.py' i zagregowane badanie ciągłości serwerów oraz zmian w wielkości w czasie
 5. skrypty R
@@ -20,3 +20,5 @@ Repozytorium zawiera skrypty, surowe dane oraz zagregowane zbiory stworzone na p
 	- bonus.r: sklejenie wszystkich danych o Mastodonie w jeden plik, z dodaną informacją o wielkości instancji
 	- miesiące.r: uśrednione wskaźniki miesięczne
 	- main.r: wizualizacja, tworzenie wykresów na podstawie danych
+## Dodatkowe materiały
+- [Arkusz Google Sheets z dodatkowymi wizualizacjami wykorzystanymi w opisie wyników badania](https://docs.google.com/spreadsheets/d/10SSCiP-tG6iM-8yaexBSkqkgo0nIPTXGBGBgGCUkO6k/edit?usp=sharing)
