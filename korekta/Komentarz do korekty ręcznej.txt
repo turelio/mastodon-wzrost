@@ -4,4 +4,5 @@ Usunięty został rekord serwera "mastodon.technology". Ponieważ instancja ta z
 
 Oryginalny zrzut danych został zapisany w folderze "korekta" jako "221214-original.csv".
 
+plik adtension.png przedstawia konwersację z administratorem instancji adtension.com, u której nastąpiło podejrzenie o manipulację statystyk.
 [1] https://ashfurrow.com/blog/mastodon-technology-shutdown/
