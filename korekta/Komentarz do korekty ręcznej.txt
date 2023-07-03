@@ -1,0 +1,7 @@
+Zestaw danych z dnia 14 grudnia 2022 roku zawarty w pliku "221214.csv" został zmodyfikowany ręcznie w celu usunięcia rekordu z błędnymi danymi.
+
+Usunięty został rekord serwera "mastodon.technology". Ponieważ instancja ta została zamknięta[1], w dniu wyłączenia serwera jego statystyki pokazywały 0 zarejestrowanych użytkowników, podczas gdy liczba wpisów nie zmieniła się. Tym samym grupa użytkowników wielkości "0-1" zanotowała tego dnia anomalię w postaci znacząco zawyżonej średniej liczby wpisów na użytkownika.
+
+Oryginalny zrzut danych został zapisany w folderze "korekta" jako "221214-original.csv".
+
+[1] https://ashfurrow.com/blog/mastodon-technology-shutdown/
